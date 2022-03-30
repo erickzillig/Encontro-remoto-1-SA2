@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Suravaram&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 130px;
+    background-color: #171A21;
+    
+}
+.container-grid{
+   width: 1200px;
+   height: 100%;
+   margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Suravaram', serif;
+    font-size: 30px;
+}
+.menu{
+ width: 660px;
+ display: flex;
+ justify-content: space-between;   
+}
+.banner{
+height: 615px;
+display: flex;
+background-image: url(../IMG/BANNER.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.texto-banner{
+    color:black;
+}
+.posicao texto{
+
+}
